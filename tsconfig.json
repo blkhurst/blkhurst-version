@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    /* Base */
+    "target": "ES2022",       // ES2022 over ESNext for stability.
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+
+    /* Strictness */
+    "strict": true,
+
+    /* TypeScript */
+    "outDir": "dist",
+    "module": "NodeNext",
+    "sourceMap": true,
+    "declaration": true,
+
+    "lib": ["ES2022"]
+  },
+  "include": ["src/**/*"]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "blkhurst-version",
+  "version": "0.1.0",
+  "description": "Version automation & release according to Semantic Versioning specifications.",
+  "main": "./dist/index.js",
+  "bin": "./dist/bin/blkhurst-version.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "repository": "blkhurst/blkhurst-version",
+  "keywords": [
+    "version",
+    "automatic",
+    "workflow"
+  ],
+  "author": "Blkhurst <github@blkhurst.co.uk>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blkhurst/blkhurst-version/issues"
+  },
+  "homepage": "https://github.com/blkhurst/blkhurst-version#readme",
+  "devDependencies": {
+    "@types/node": "^22.9.3",
+    "typescript": "^5.7.2"
+  }
+}
