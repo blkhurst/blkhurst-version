@@ -20,6 +20,7 @@ npx tsc --init
 ```json
 // package.json
 {
+  "type": "module",
   "main": "./dist/src/index.js",
   "bin": "./dist/src/bin/blkhurst-version.js",
   "scripts": {
@@ -32,4 +33,6 @@ npx tsc --init
   ...
 }
 ```
+`"type": "module"` Tells Node.js that all `.js` files use ES Module syntax unless otherwise specified.
+
 <!--! "types": "dist/index.d.ts", -->

@@ -2,6 +2,7 @@
   "name": "blkhurst-version",
   "version": "0.1.0",
   "description": "Version automation & release according to Semantic Versioning specifications.",
+  "type": "module",
   "main": "./dist/src/index.js",
   "bin": "./dist/src/bin/blkhurst-version.js",
   "scripts": {
@@ -22,5 +23,16 @@
   "bugs": {
     "url": "https://github.com/blkhurst/blkhurst-version/issues"
   },
-  "homepage": "https://github.com/blkhurst/blkhurst-version#readme"
+  "homepage": "https://github.com/blkhurst/blkhurst-version#readme",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "figures": "^6.1.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^12.1.0",
+    "semver": "^7.6.3"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/semver": "^7.5.8"
+  }
 }
