@@ -26,6 +26,10 @@
   "homepage": "https://github.com/blkhurst/blkhurst-version#readme",
   "devDependencies": {
     "@types/node": "^22.9.3",
+    "@types/yargs": "^17.0.33",
     "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "yargs": "^17.7.2"
   }
 }
