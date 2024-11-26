@@ -7,6 +7,7 @@
   "type": "module",
   "scripts": {
     "build": "tsc -p .",
+    "cli": "npm run build && node ./dist/bin/blkhurst-version.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "files": [
@@ -25,11 +26,17 @@
   },
   "homepage": "https://github.com/blkhurst/blkhurst-version#readme",
   "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
     "@types/node": "^22.9.3",
+    "@types/semver": "^7.5.8",
     "@types/yargs": "^17.0.33",
     "typescript": "^5.7.2"
   },
   "dependencies": {
+    "chalk": "^5.3.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^12.1.0",
+    "semver": "^7.6.3",
     "yargs": "^17.7.2"
   }
 }
